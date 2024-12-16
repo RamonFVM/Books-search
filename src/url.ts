@@ -1,0 +1,1 @@
+export const GOOGLE_API_URL= process.env.GOOGLEAPI  || `https://www.googleapis.com`
