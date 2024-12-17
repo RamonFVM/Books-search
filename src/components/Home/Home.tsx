@@ -28,11 +28,11 @@ export function Home() {
 
         console.log("Coloque um titulo para buscar");
       }
-        fetchBookDate()
+     
     }
 
   return (
-    <div className="bg-black min-h-screen flex flex-col">
+    <div className=" bg-[#0c0c0c] min-h-screen flex flex-col">
       <header className="bg-slate-800 font-sans flex justify-center items-center text-white p-6 text-4xl">
         Books Search
       </header>
@@ -53,11 +53,17 @@ export function Home() {
            type="submit"
            onClick={fetchBookDate}>
             Pesquisar
-          </button>
+          </button> 
+
+
+
+        
 
         </div>
       </div>
     </div>
+
+    
   );
 }
 

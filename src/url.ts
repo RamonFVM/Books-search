@@ -1,1 +1,1 @@
-export const GOOGLE_API_URL= process.env.GOOGLEAPI  
+export const GOOGLE_API_URL= process.env.NEXT_PUBLIC_GOOGLEAPI
