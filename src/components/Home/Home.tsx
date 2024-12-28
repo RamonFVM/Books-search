@@ -52,7 +52,7 @@ export function Home() {
           <div className="flex justify-center items-center bg-[#484d50] w-full rounded-2xl md:w-2/4 ">
             <div className="flex flex-col items-center p-4">
               {bookdate.items.map((bookItem: any, index: number) => (
-                <div key={index} className="bg-slate-700 text-white p-4 mb-4 w-full rounded-xl">
+                <div key={index} className="bg-slate-700 text-white p-4 mb-4 w-full rounded-xl hover: border-2 hover:border-blue-500 transition-all duration-500 ease-in-out hover:scale-110">
 
                   {bookItem.volumeInfo.imageLinks && bookItem.volumeInfo.imageLinks.thumbnail ? (
                     <img
