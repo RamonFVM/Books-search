@@ -39,7 +39,7 @@ export function Home() {
             onChange={HandleinputChange}
           />
           <button
-            className={`m-6 w-1/4 h-12 rounded-2xl font-semibold bg-white ${!book ? 'opacity-50 cursor-not-allowed' : 'transition-all duration-500 ease-in-out hover:scale-110 hover:bg-teal-400 hover:text-white'}`}
+            className={`m-6 w-1/4 h-12 rounded-2xl font-semibold bg-white ${!book ? 'opacity-50 cursor-not-allowed' : 'transition-all duration-500 ease-in-out hover:scale-110 hover:bg-purple-500 hover:text-white'}`}
             type="submit"
             onClick={fetchBookDate}
             disabled={!book}
@@ -52,7 +52,7 @@ export function Home() {
           <div className="flex justify-center items-center bg-[#484d50] w-full rounded-2xl md:w-2/4 ">
             <div className="flex flex-col items-center p-4">
               {bookdate.items.map((bookItem: any, index: number) => (
-                <div key={index} className="bg-slate-700 text-white p-4 mb-4 w-full rounded-xl hover: border-2 hover:border-blue-500 transition-all duration-500 ease-in-out hover:scale-110">
+                <div key={index} className="bg-slate-700 text-white p-4 mb-4 w-full rounded-xl hover: border-2 hover:border-purple-600 transition-all duration-500 ease-in-out hover:scale-110">
 
                   {bookItem.volumeInfo.imageLinks && bookItem.volumeInfo.imageLinks.thumbnail ? (
                     <img
